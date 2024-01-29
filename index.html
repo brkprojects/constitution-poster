@@ -14,9 +14,12 @@
         padding: 50px;
         color: red;
     }
+
+    
     .container{
         border: 10px black solid;
         width: 1000px;
+        padding: 20px;
     }
     .container1{
         text-align: center;
@@ -28,15 +31,44 @@
     .cont2{
         margin: 50px;
     }
+    .head{
+        text-decoration: underline;
+    }
+    table{
+            font-size: 25px;
+            border: 3px black solid;
+            width: 800px;
+            .sa{
+                border: none;
+                border-right: 2px black solid;
+                width: 200px;
+                text-align: center;
+                margin: 40px;
+            }
+            .s{
+                text-align: center;
+            }
+            .a{
+                background-color: rgb(185, 214, 205);
+            }
+            .row td{
+                border-bottom: 2px black solid;
+
+            }
+            img{
+                height: 20px;
+                width: 20px;       
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="container1">
-            <h1>
+            <h1 class="head">
                 Constitution of India
             </h1>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Constitution_of_India.jpg/800px-Constitution_of_India.jpg" alt="">
+            <img src="https://th.bing.com/th/id/OIP.u-qgIRfTqbts7LGl4gDqmgAAAA?rs=1&pid=ImgDetMain" alt="">
         </div>
         <div class="cont2">
             <p class="p5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, accusamus mollitia! Eaque repellendus error eum dolorem enim libero, itaque asperiores ipsum praesentium explicabo culpa fugiat magnam minima in officiis ab.
@@ -53,7 +85,42 @@
             </h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, accusamus mollitia! Eaque repellendus error eum dolorem enim libero, itaque asperiores ipsum praesentium explicabo culpa fugiat magnam minima in officiis ab.</p>
         </div>
-        
+        <div class="text">
+            <table>
+                <tr class="row a">
+                    <td class="sa">
+                        Government
+                    </td>
+                    <td class="s">
+                        Influence
+                    </td>
+                </tr>
+                <tr class="row">
+                    <td class="sa"> <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" alt=""> United Kingdom</td>
+                    <td>
+                        <ul>
+                            <li>Parliamentary government</li>
+                            <li>Nominal head of the state</li>
+                            <li>Post of Prime Minister
+                            </li>
+                            <li>More powerful lower house</li>
+                            
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="sa"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/1920px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png" >United States</td>
+                    <td>
+                        <ul>
+                            <li>Bill of Rights (Fundamental rights)</li>
+                            <li>Written constitution</li>
+                            <li>Preamble to the Constitution</li>
+                            <li>Federal structure of government</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
 </body>
 </html>
